@@ -122,7 +122,7 @@ with col2:
 # LOAD MODEL
 # ----------------------
 model_path = os.path.join(os.getcwd(), "Project.pkl")
-with open("C:\\Users\\user\\OneDrive\\Desktop\\Move Rating Prediction\\Project.pkl", "rb") as file:
+with open("Project.pkl", "rb") as file:
     model = pickle.load(file)
 
 # ----------------------
